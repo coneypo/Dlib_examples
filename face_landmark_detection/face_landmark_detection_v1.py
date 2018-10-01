@@ -37,7 +37,7 @@ for i, d in enumerate(faces):
     win.add_overlay(shape)
 
 # 绘制矩阵轮廓 / layer rectangles, Red
-win.add_overlay(faces)
+# win.add_overlay(faces)
 
 # 保持图像
 dlib.hit_enter_to_continue()

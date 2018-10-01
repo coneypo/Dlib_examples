@@ -13,7 +13,7 @@ from skimage import io
 detector = dlib.get_frontal_face_detector()
 
 # 图片所在路径
-img = io.imread("../imgs/faces_2.jpeg")
+img = io.imread("../imgs/faces_1.jpeg")
 
 # 生成 Dlib 的图像窗口
 win = dlib.image_window()
@@ -21,6 +21,7 @@ win.set_image(img)
 
 # 使用detector检测器来检测图像中的人脸
 faces = detector(img, 1)
+
 print("人脸数 / faces in all：", len(faces))
 
 for i, d in enumerate(faces):
