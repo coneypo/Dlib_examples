@@ -6,7 +6,7 @@ The examples of using Dlib in Python
 >
 >face\_detector\_v1.py       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       # Add comments
 >
->face\_detector\_v2\_use\_opencv.py   &nbsp; &nbsp; &nbsp; &nbsp;# using opencv object
+>face\_detector\_v2\_use\_opencv.py   &nbsp; &nbsp; &nbsp; &nbsp;# Using opencv object
 
 <br>
 
