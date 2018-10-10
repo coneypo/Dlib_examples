@@ -13,7 +13,7 @@ from skimage import io
 detector = dlib.get_frontal_face_detector()
 
 # 图片所在路径
-img = io.imread("../imgs/faces_1.jpeg")
+img = io.imread("../data/data_faces/faces_1.jpeg")
 
 # 生成 Dlib 的图像窗口
 win = dlib.image_window()

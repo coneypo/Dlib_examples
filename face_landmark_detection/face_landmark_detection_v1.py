@@ -13,10 +13,10 @@ from skimage import io
 detector = dlib.get_frontal_face_detector()
 
 # Dlib 的 68点模型
-predictor = dlib.shape_predictor("../Dlib_dat/shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor("../data/data_faces/shape_predictor_68_face_landmarks.dat")
 
 # 图片所在路径
-img = io.imread("../imgs/faces_2.jpeg")
+img = io.imread("../data/faces_2.jpeg")
 
 # 生成 Dlib 的图像窗口
 win = dlib.image_window()
